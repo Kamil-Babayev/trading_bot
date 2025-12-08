@@ -1,0 +1,9 @@
+2025/12/08 15:10:01 🤖 Trading Bot Started
+2025/12/08 15:10:01   API: binance, Symbol: TRXUSDT, Interval: 2s, Strategy: all
+
+✅ Trading bot running (press Ctrl+C to exit)...
+
+📈 [2025-12-08 15:10:22] BUY SIGNAL at price: 0.28640000 (Strategy: Momentum)
+2025/12/08 15:10:26 
+🛑 Shutting down...
+2025/12/08 15:10:26 ✅ Bot stopped gracefully
