@@ -1,19 +1,19 @@
-# Trading Bot - TRX/USDT University Project
+# Trading Bot - TRX/USDT
 
 A concurrent streaming cryptocurrency trading bot that monitors TRX/USDT prices and generates buy/sell signals based on multiple strategies.
 
 ## Features
 
-✨ **Three Trading Strategies:**
+ **Three Trading Strategies:**
 - **Momentum**: Detects ±0.5% price changes
 - **Simple Moving Average (SMA)**: Buys when price > 5-period average
 - **RSI-like**: Detects overbought (>70) and oversold (<30) conditions
 
-✨ **Market Data Sources:**
+ **Market Data Sources:**
 - Binance API (free, no auth required)
 - CoinMarketCap Pro API (requires API key)
 
-✨ **Configuration:**
+ **Configuration:**
 - Configurable price fetch interval (5 seconds to hours)
 - Run all strategies or select specific ones
 - Trade history logged to file with timestamps
@@ -119,16 +119,5 @@ MarketData API
 - **HTTP Client**: `github.com/go-resty/resty/v2`
 - **Concurrency**: Goroutines + channels
 - **Design Pattern**: Interface-based architecture for easy extension
-
-## For Your University Project
-
-This bot demonstrates:
-- ✅ Concurrent programming with goroutines and channels
-- ✅ Real API integration (Binance & CoinMarketCap)
-- ✅ Strategy pattern for trading algorithms
-- ✅ Configuration management with flags
-- ✅ File I/O for trade history
-- ✅ Error handling and graceful shutdown
-- ✅ Multiple independent data sources
 
 Run with different strategies and intervals to observe different trading behaviors!
